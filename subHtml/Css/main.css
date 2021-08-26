@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+#main {
+    background-color: #f1f1f1!important;
+}
+
+#header {
+    height: 54px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+#header .subhea {
+    padding: 8px 16px;
+}
+
+#header a {
+    color: black;
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+    position: fixed;
+    color: #000;
+}
+
+#header a:hover {
+    background-color: #ccc;
+}
+
+#bodya {
+    margin-top: 16px;
+    margin: 0px 59.6px;
+    padding-bottom: 25px;
+    overflow: hidden;
+}
+
+#subody {
+    padding: 0 8px;
+    box-sizing: inherit;
+    width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    color: #757575!important;
+    background-color: #fff;
+}
+
+#item {
+    padding: 0 8px;
+    background-color: #fff;
+}
+
+#item .img {
+    padding-top: 64px;
+
+}
+
+#item img {
+ width: 100%;
+}
+
+#item .name {
+    color: #000;
+}
+
+#subody .cv {
+    padding: 0.150px 16px;
+    padding-bottom: 28px;
+}
+
+#subody .cv .ruler {
+    width: 100%;
+    background-color: #ccc;
+    height: 17px;
+    border-radius: 16px;
+}
+
+#subody .cv .ruler > div {
+    height: 100%;
+    background-color: #009688!important;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+#subody .cv .ruler .AdobePhotoshop {
+    width: 90%;
+}
+
+#subody .cv .ruler .Photography {
+    width: 80%;
+}
+
+#subody .cv .ruler .Illustrator {
+    width: 75%;
+}
+
+#subody .cv .ruler .Media {
+    width: 50%;
+}
+
+#subody .cv .ruler1 {
+    width: 100%;
+    background-color: #ccc;
+    height: 25px;
+    border-radius: 16px;
+}
+
+#subody .cv .ruler1 > div {
+    height: 100%;
+    background-color: #009688!important;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+#subody .cv .ruler1 .English {
+    width: 95%;
+}
+
+#subody .cv .ruler1 .Spanish {
+    width: 50%;
+}
+
+.cv h4 {
+    margin: 15px;
+    font-size: 16px;
+}
+
+.cv h3 {
+    margin: 18px;
+    padding-top: 20px;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+#work {
+    width: 66%;
+    box-sizing: inherit;
+    padding: 0.01em 16px;
+    float: right;
+    color: #000;
+    padding-top: 64px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+#work .heasub {
+    color: #757575!important;
+    margin: 10px;
+    padding: 16px;
+}
+#work h4 {
+display: inline-block;
+}
+
+#work h4 {
+    color: #009688;
+}
+
+#work hr {
+    margin: 20px;
+    /* opacity: 1; */
+}
+
+#work h3,
+#work > .work1 > h4 {
+    padding: 0 8px;
+    margin: 10px;
+}
+
+#work .word {
+    background-color: #009688!important;
+    color: #fff!important;
+}
+
+#work .font {
+    margin: 10px;
+    color: #009688;
+}
+
+#work .font .word {
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+#work p {
+    padding: 0 15px;
+}
+
+#work .endfont {
+    padding-bottom: 25px;
+}
+
+#education {
+    width: 100%;
+    box-sizing: inherit;
+    padding: 0.01em 16px;
+    float: right;
+    color: #000;
+    padding-top: 64px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cv a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(26, 121, 211);
+    border-radius: 16px;
+}
+
+.cv .github a {
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.mxh {
+    margin-bottom: 30px;
+}
+
+.mxh h4{
+    display: inline;
+}
+
+.mxh .facebook:hover a {
+    background-color: #fff;
+    color: rgb(26, 121, 211);
+    border-radius: 16px;
+    border: 2px solid rgb(26, 121, 211);
+}
+
+.mxh .github:hover a {
+    background-color: hsl(231, 70%, 11%);
+    color: #fff;
+}
+
+#education h4 {
+    padding: 0 16px;
+    margin: 15px 0;
+}
+
+#end {
+    padding: 16px 0px;
+    background-color: #009688!important;
+}
+
+#end p {
+    margin: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+#end a {
+    text-decoration: underline;
+    color: #fff;
+}
