@@ -1,0 +1,116 @@
+/* 
+Pc: >= 1024px
+Tablet: >= 740px & < 1024px
+Mobile: < 740px
+*/
+@media (min-width: 1025px) and (max-width: 1120px) {
+    .mxh h4 {
+        font-size: 14px!important;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    #bodya {
+        margin: 0px 15px!important;
+    }
+
+    #work {
+        width: 58%!important;
+    }
+
+    #subody {
+        width: 40%!important;
+    }
+
+    #subody .cv {
+        padding: 0.150px 10px!important;
+        padding-bottom: 28px!important;
+    }
+
+    .cv h4 {
+        margin: 10px 0px!important;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    #work .heasub {
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+
+    .fa1 {
+        font-size: 20px!important;
+    }
+}
+
+@media (min-width: 368px) and (max-width: 739px) {
+    #bodya {
+        margin: 0px 10px!important;
+    }
+
+    #subody {
+        width: 100%!important;
+    }
+
+    #work {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 367px) {
+    #bodya {
+        margin: 0px 10px!important;
+    }
+
+    #subody {
+        width: 100%!important;
+    }
+
+    #work {
+        width: 100%!important;
+    }
+
+    h4 {
+        font-size: 10px!important;
+    }
+
+    .cv h4 {
+        margin: 6px 0px!important;
+    }
+
+    #subody .cv {
+        padding: 0.150px 0px!important;
+        padding-bottom: 28px!important;
+    }
+
+    .cv h3 {
+        margin: 8px 0px!important;
+        padding-top: 10px!important;
+    }
+
+    #work .heasub {
+        color: #757575!important;
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    #education {
+        padding-top: 0px!important;
+    }
+
+    #work h3, #work > .work1 > h4 {
+        padding: 0 0px!important;
+        margin: 0px!important;
+    }
+
+    h3 {
+        font-size: 19px!important;
+    }
+
+}

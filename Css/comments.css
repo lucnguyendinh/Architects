@@ -1,0 +1,54 @@
+#comments {
+    background-color: #f7f7f7;
+    border-radius: 16px;
+    padding: 8px;
+    margin-left: 24px;
+}
+
+#list-courses li {
+    list-style-type: none;
+    padding: 16px;
+}
+
+#list-courses li h2 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#list-courses li h2 img {
+    width: 30px;
+    border-radius:50%;
+}
+
+#list-courses li h3 {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+
+#list-courses li button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .75rem;
+}
+
+#send .input input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+#create {
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.chat {
+    color: #000;
+}
+
+#list-courses li {
+    color: #000;
+}
