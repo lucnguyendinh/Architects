@@ -1,5 +1,5 @@
 //handleComments
-var courseApi = 'https://aeaf-14-251-226-194.ngrok.io/courses';
+var courseApi = 'https://6452-14-253-25-183.ngrok.io/courses';
 
 function start() {
     getCourses(renderCourses);
